@@ -8,7 +8,7 @@
         data-placement="bottom"
     >
         <span class="glyphicon glyphicon-eye-open"></span>
-        {{ trans('core::grid.colunas') }}
+        {{ trans('grids::grid.colunas') }}
         <span class="caret"></span>
     </button>
     <div

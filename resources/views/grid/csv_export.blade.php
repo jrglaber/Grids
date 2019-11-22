@@ -12,6 +12,6 @@ use Nayjest\Grids\Components\CsvExport;
         class="btn btn-sm btn-default"
         >
         <span class="glyphicon glyphicon-export"></span>
-        {{ trans('core::grid.csv') }}
+        {{ trans('grids::grid.csv') }}
     </a>
 </span>

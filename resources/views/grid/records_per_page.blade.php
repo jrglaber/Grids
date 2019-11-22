@@ -1,4 +1,4 @@
-<span>{{ trans('core::grid.visualizasoes') }}</span>
+<span>{{ trans('grids::grid.visualizasoes') }}</span>
 <?php
 /** @var Nayjest\Grids\Components\RecordsPerPage $component */
 echo \Form::select(
