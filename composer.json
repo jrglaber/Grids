@@ -42,6 +42,5 @@
         "source": "https://github.com/jrglaber/Grids",
         "issues": "https://github.com/jrglaber/Grids/issues"
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "minimum-stability": "dev"
 }
