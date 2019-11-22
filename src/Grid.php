@@ -38,6 +38,7 @@ class Grid
         }
 
         $this->initializeComponents();
+        // Setado tipo de evento
         Event::dispatch(self::EVENT_CREATE, $this);
     }
 
