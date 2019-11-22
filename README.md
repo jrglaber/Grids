@@ -60,11 +60,11 @@ Both Laravel 4 and Laravel 5 are supported.
 
 ##### Step 1: Install package using [Composer](https://getcomposer.org)
 
-Add jrglaber/grids to "require" section of your composer.json
+Add jrglaber/laravel-grids to "require" section of your composer.json
 
 ```javascript
 "require": {
-    "jrglaber/grids": "^2.0"
+    "jrglaber/laravel-grids": "^2.0"
 },
 ```
 
@@ -72,7 +72,7 @@ For Laravel 5 you also need to add "laravelcollective/html":
 
 ```javascript
 "require": {
-    "jrglaber/grids": "^2.0",
+    "jrglaber/laravel-grids": "^2.0",
     "laravelcollective/html": "^5"
 },
 ```
