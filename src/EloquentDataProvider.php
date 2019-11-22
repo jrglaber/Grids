@@ -55,7 +55,7 @@ class EloquentDataProvider extends DataProvider
     public function getPaginator()
     {
         if (!$this->paginator) {
-            $this->paginator = $this->src->paginate($this->page_size);
+            $this->paginator = $this->src->paginate($this->page_size, ['*'], 'page', $this->current_page);
         }
         return $this->paginator;
     }
@@ -91,7 +91,7 @@ class EloquentDataProvider extends DataProvider
             $item = $this->iterator->current();
             $this->iterator->next();
             $row = new EloquentDataRow($item, $this->getRowId());
-            Event::fire(self::EVENT_FETCH_ROW, [$row, $this]);
+            Event::dispatch(self::EVENT_FETCH_ROW, [$row, $this]);
             return $row;
         } else {
             return null;
