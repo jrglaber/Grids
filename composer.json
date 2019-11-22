@@ -41,5 +41,6 @@
         "source": "https://github.com/Nayjest/Grids",
         "issues": "https://github.com/Nayjest/Grids/issues"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
