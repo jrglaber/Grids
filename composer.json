@@ -14,7 +14,7 @@
     ],
     "homepage": "https://github.com/jrglaber/Grids",
     "type": "library",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "license": "MIT",
     "authors": [
         {
@@ -24,8 +24,8 @@
         }
     ],
     "require": {
-        "php": ">=7.2.0",
-        "illuminate/support": ">=4.2",
+        "php": ">=7.2",
+        "illuminate/support": "^6.0",
         "nayjest/builder": "~2"
     },
     "suggest": {
