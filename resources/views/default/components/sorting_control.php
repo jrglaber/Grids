@@ -1,6 +1,6 @@
 <small style="white-space: nowrap">
     <a
-        title="Sort ascending"
+        title="Ordenar crescente"
         <?php if($column->isSortedAsc()): ?>
 
             class="text-success"
@@ -11,7 +11,7 @@
         &#x25B2;
     </a>
     <a
-        title="Sort descending"
+        title="Ordenar decrescente"
         <?php if($column->isSortedDesc()): ?>
             class="text-success"
         <?php else: ?>
