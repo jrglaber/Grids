@@ -67,6 +67,7 @@ class GridDateConfig
                 ->setJsOptions(array_merge($jsOptions, [
                     'format' => trans('grids::grid.date.format'),
                     'locale' => [
+                        'format' => trans('grids::grid.date.format'),
                         'applyLabel' => trans('grids::grid.date.usar'),
                         'cancelLabel' => trans('grids::grid.date.cancelar'),
                         'fromLabel' => trans('grids::grid.date.de'),
