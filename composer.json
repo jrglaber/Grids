@@ -23,6 +23,11 @@
             "role": "Developer"
         }
     ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "^6.0|^7.0|^8.0",
+        "nayjest/builder": "~2"
+    },
     "suggest": {
         "laravelcollective/html": "Required to work with Laravel 6.X",
         "maatwebsite/excel": "Required to work with Excel export component"
